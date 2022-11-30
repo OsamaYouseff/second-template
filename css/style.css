@@ -100,7 +100,7 @@ h4 {
 }
 
 .dot {
-  background: url(/images/dots.png) no-repeat;
+  background: url(images/dots.png) no-repeat;
   position: absolute;
   max-width: 204px;
   height: 168px;
