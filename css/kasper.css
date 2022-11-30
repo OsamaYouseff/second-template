@@ -218,7 +218,6 @@ header .container nav .toggle-menu + ul li a {
   width: 100%;
 }
 
-
 header .container nav ul {
   display: flex;
   margin-right: 20px;
@@ -276,7 +275,7 @@ header .container .form i {
 .landing {
   max-width: 100%;
   min-height: 100vh;
-  background-image: url(../images/landing.jpg);
+  background-image: url(images/landing.jpg);
   background-size: cover;
   background-color: #00c7fc;
   transform: translateY(-20px);
@@ -457,7 +456,7 @@ header .container .form i {
 /* start design-sec  */
 
 .design-sec {
-  background-image: url(../images/design-features.jpg);
+  background-image: url(images/design-features.jpg);
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -731,7 +730,7 @@ header .container .form i {
   padding-top: var(--SectionPadding);
   padding-bottom: var(--SectionPadding);
   text-align: center;
-  background-image: url(images/stats.png);
+  background-image: url(ges/stats.png);
   background-size: cover;
   position: relative;
 }
@@ -975,7 +974,7 @@ header .container .form i {
   height: 100%;
   position: relative;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .holders .prog-holder .prog {
     background-color: transparent;
   }
@@ -1012,7 +1011,7 @@ header .container .form i {
 .quote {
   padding-top: var(--SectionPadding);
   padding-bottom: var(--SectionPadding);
-  background-image: url(images/quote.jpg);
+  background-image: url(ges/quote.jpg);
   background-size: cover;
   position: relative;
   color: white;
@@ -1204,7 +1203,7 @@ header .container .form i {
 .subscribe {
   padding-top: var(--SectionPadding);
   padding-bottom: var(--SectionPadding);
-  background-image: url(images/subscribe.jpg);
+  background-image: url(ges/subscribe.jpg);
   background-size: cover;
   position: relative;
   color: white;
@@ -1386,15 +1385,13 @@ header .container .form i {
 
 /* end contact-us */
 
-
 /* start footer */
 footer {
   padding-top: calc(var(--SectionPadding) / 2);
   padding-bottom: calc(var(--SectionPadding) / 2);
-  background-image: url(images/subscribe.jpg);
+  background-image: url(ges/subscribe.jpg);
   background-size: cover;
   position: relative;
-
 }
 footer::before {
   content: "";
@@ -1442,7 +1439,7 @@ footer .container .social-icons i:hover {
 footer .container .copyright {
   margin-top: 60px;
   font-size: 18px;
-}  
+}
 footer .container .copyright span {
   color: var(--mainColor);
   font-weight: bold;
