@@ -11,6 +11,13 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* HTML */
@@ -278,6 +285,8 @@ header .container .form i {
   background-image: url(../images/landing.jpg);
   background-size: cover;
   background-color: #00c7fc;
+  position: relative;
+  background-attachment: fixed;
   transform: translateY(-20px);
 }
 
